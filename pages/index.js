@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+	debugger;
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -12,7 +14,7 @@ export default function Home() {
 			<main className={styles.main}>
 				<div className={styles.container}>
 					<h1>Seja bem vindo, <strong>Visitante</strong>!</h1>
-					<img style={{maxWidth: 300 + 'px'}} src="/ilobatodev_astronauta1.svg"/>
+					<img style={{maxWidth: 200 + 'px'}} src="/ilobatodev_astronauta2.svg"/>
 				</div>
 			</main>
 
