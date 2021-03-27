@@ -10,7 +10,10 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				Seja bem vindo!
+				<div className={styles.container}>
+					<h1>Seja bem vindo, <strong>Visitante</strong>!</h1>
+					<img style="max-width: 300px;" src="ilobatodev_astronauta1"/>
+				</div>
 			</main>
 
 			<footer className={styles.footer}>
