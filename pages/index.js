@@ -12,7 +12,7 @@ export default function Home() {
 			<main className={styles.main}>
 				<div className={styles.container}>
 					<h1>Seja bem vindo, <strong>Visitante</strong>!</h1>
-					<img style="max-width: 300px;" src="ilobatodev_astronauta1"/>
+					<img style="max-width: 300px;" src="ilobatodev_astronauta1"></img>
 				</div>
 			</main>
 
