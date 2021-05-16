@@ -76,6 +76,10 @@ input, textarea {
   font-weight: bold;
 }
 
+.btn:hover {
+  color: var(--terciary-color);
+}
+
 .btn-personalizado {
   border: 1px solid var(--primary-color);
   background-color: transparent;
