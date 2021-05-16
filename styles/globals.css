@@ -6,7 +6,8 @@
 @tailwind utilities; */
 
 :root {
-  --primary-color: #ff9900;
+  /* --primary-color: #ff9900; */
+  --primary-color: #8f0;
   --secondary-color: #fff;
 }
 
@@ -142,7 +143,7 @@ input, textarea {
 .modal-content .btn-close {
   background-color: #fff;
   position: absolute;
-  right: 0;
+  right: 20px;
   top: 0;
   z-index: 999999;
 }
@@ -201,6 +202,11 @@ input, textarea {
 .modal .sobreMim .mini-title::before, .modal .sobreMim .mini-title::after {
   color: var(--primary-color);
   font-weight: normal;
+}
+
+.modal .btn {
+  background-color: var(--primary-color);
+  padding: .6em;
 }
 
 /* IMPORTANT CLASS */
