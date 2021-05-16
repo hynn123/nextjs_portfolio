@@ -210,6 +210,7 @@ input, textarea {
   color: var(--terciary-color);
   padding: .6em;
   outline: none;
+  box-shadow: none;
 }
 
 /* IMPORTANT CLASS */
