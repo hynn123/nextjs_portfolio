@@ -6,9 +6,10 @@
 @tailwind utilities; */
 
 :root {
-  /* --primary-color: #ff9900; */
-  --primary-color: #8f0;
+  /* --primary-color: #8f0; */
+  --primary-color: #ff9900;
   --secondary-color: #fff;
+  --bg-color: rgb(15,3,18);
 }
 
 * {
@@ -29,7 +30,7 @@ body {
   /* background: url('/ilobatodev_bg1.jpg'); */
   background-size: cover;
   color: #fff;
-  background: rgb(15,3,18);
+  background: var(--bg-color);
   overflow-y: hidden;
 }
 
@@ -132,7 +133,7 @@ input, textarea {
 }
 
 .modal .modal-dialog {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .modal-content {
@@ -141,7 +142,8 @@ input, textarea {
 }
 
 .modal-content .btn-close {
-  background-color: #fff;
+  background-color: #000;
+  border: 1px solid var(--primary-color);
   position: absolute;
   right: 20px;
   top: 0;
