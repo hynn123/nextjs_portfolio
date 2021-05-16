@@ -76,10 +76,6 @@ input, textarea {
   font-weight: bold;
 }
 
-.btn:hover {
-  color: var(--terciary-color);
-}
-
 .btn-personalizado {
   border: 1px solid var(--primary-color);
   background-color: transparent;
@@ -95,8 +91,8 @@ input, textarea {
   max-width: 230px;
 }
 
-.btn-personalizado:hover {
-  color: var(--secondaryy-color);
+.btn-personalizado:hover, .btn:hover {
+  color: var(--terciary-color);
   background-color: var(--primary-color);
 }
 
