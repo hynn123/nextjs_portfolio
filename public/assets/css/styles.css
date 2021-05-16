@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #ff9900;
+  --secondar-color: #fff;
+}
+
+.logo {
+  text-align: center;
+  line-height: 1.2;
+  font-style: normal;
+  color: #fff;
+  font-size: 56px;
+  letter-spacing: 0;
+  font-weight: 100;
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+.subTitle {
+  font-family: Oswald,serif;
+  -webkit-text-fill-color: #fff;
+  font-size: 11px;
+  letter-spacing: 8.9px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: -5px;
+}
+
+.btn-personalizado {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  font-family: "Oswald";
+  font-size: 14pt;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  transition: all .3s ease;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 230px;
+}
+
+.btn-personalizado:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.footerCredits {
+  font-family: Oswald,serif;
+  -webkit-text-fill-color: #fff;
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.contentPop {
+  min-width: 243.7px;
+  min-height: 120px;
+  border-radius: 4px;
+  padding: 2em;
+  border: 1px solid var(--primary-color);
+}
+

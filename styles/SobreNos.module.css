@@ -1,0 +1,8 @@
+.textBody {
+	text-align: justify;
+}
+
+.textBody :is(p)
+{
+	margin-bottom: 1em !important;
+}
