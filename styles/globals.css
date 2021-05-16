@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;700&display=swap');
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 :root {
-  /* --primary-color: #8f0; */
-  --primary-color: #ff9900;
+  --bg-color: rgb(23, 23, 23);
+  --primary-color: #8f0;
   --secondary-color: #fff;
-  --bg-color: rgb(15,3,18);
+  --terciary-color: rgb(40, 68, 8);
+  /* --primary-color: #ff9900; */
+  /* --bg-color: rgb(15,3,18); */
 }
 
 * {
@@ -208,7 +206,9 @@ input, textarea {
 
 .modal .btn {
   background-color: var(--primary-color);
+  color: var(--terciary-color);
   padding: .6em;
+  outline: none;
 }
 
 /* IMPORTANT CLASS */
