@@ -139,7 +139,7 @@ input, textarea {
   overflow: unset;
 }
 
-.modal-content .btn-close {
+.modal-content .btn-close2 {
   background-color: #000;
   border: 1px solid var(--primary-color);
   position: absolute;
