@@ -4,23 +4,23 @@ import SobreMim from '../pages/sobremim.js';
 import Contato from '../pages/contato.js';
 // import { Scrollbars } from 'react-custom-scrollbars-2';
 
-const checkClick = (event) => {
-	let nameFromButton = event.target.dataset.value;
-	let checkForDivsOpened = document.querySelectorAll('div.secondPanel.d-flex');
+// const checkClick = (event) => {
+// 	let nameFromButton = event.target.dataset.value;
+// 	let checkForDivsOpened = document.querySelectorAll('div.secondPanel.d-flex');
 
-	if(checkForDivsOpened.length > 0) {
-		checkForDivsOpened.forEach(item => {
-			if(!item.id.includes(nameFromButton)) {
-				item.classList.toggle('d-none');
-				item.classList.toggle('d-flex');
-			}
-		})
-	}
+// 	if(checkForDivsOpened.length > 0) {
+// 		checkForDivsOpened.forEach(item => {
+// 			if(!item.id.includes(nameFromButton)) {
+// 				item.classList.toggle('d-none');
+// 				item.classList.toggle('d-flex');
+// 			}
+// 		})
+// 	}
 
-	let divToChange = document.getElementById(nameFromButton);
-	divToChange.classList.toggle('d-none');
-	divToChange.classList.toggle('d-flex');
-}
+// 	let divToChange = document.getElementById(nameFromButton);
+// 	divToChange.classList.toggle('d-none');
+// 	divToChange.classList.toggle('d-flex');
+// }
 
 export default function Home() {
 	return (
@@ -28,7 +28,7 @@ export default function Home() {
 			<Head>
 				<meta charSet="utf-8"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-				<title>Portfolio</title>
+				<title>ILobato Dev</title>
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css"/>
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,400"/>
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"/>
@@ -52,10 +52,12 @@ export default function Home() {
 				</div>
 			</section>
 
-			<div className="modal fade" id="trabalhos" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div className="modal fade" id="trabalhos" tabIndex="-1" aria-labelledby="trabalhos" aria-hidden="true">
 				<div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 					<div className="modal-content">
-						<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						<button type="button" className="btn-close2" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times"></i>
+						</button>
 
 						<div className="modal-body">
 							<Trabalhos />
@@ -64,10 +66,12 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="modal fade" id="sobremim" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div className="modal fade" id="sobremim" tabIndex="-1" aria-labelledby="sobremim" aria-hidden="true">
 				<div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 					<div className="modal-content">
-						<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						<button type="button" className="btn-close2" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times"></i>
+						</button>
 
 						<div className="modal-body">
 							<SobreMim />
@@ -76,10 +80,12 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="modal fade" id="contato" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div className="modal fade" id="contato" tabIndex="-1" aria-labelledby="contato" aria-hidden="true">
 				<div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 					<div className="modal-content">
-						<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						<button type="button" className="btn-close2" data-bs-dismiss="modal" aria-label="Close">
+							<i class="fas fa-times"></i>
+						</button>
 
 						<div className="modal-body">
 							<Contato />

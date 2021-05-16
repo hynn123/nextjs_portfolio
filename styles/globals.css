@@ -146,6 +146,7 @@ input, textarea {
   right: 20px;
   top: 0;
   z-index: 999999;
+  color: #fff !important;
 }
 
 .modal a {
