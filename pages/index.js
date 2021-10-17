@@ -18,7 +18,8 @@ export default function Home() {
 		<section class="py-5 my-5">
 			<div class="container my-auto">
 				<div class="row">
-					<div class="col-3 d-xl-flex flex-column justify-content-xl-center align-items-xl-center px-4"><img src="assets/img/ilobatodev_astronauta2.svg?h=bdd18d63a557c289979440babb853d29" style="width: 150px;">
+					<div class="col-3 d-xl-flex flex-column justify-content-xl-center align-items-xl-center px-4">
+						<img src="assets/img/ilobatodev_astronauta2.svg?h=bdd18d63a557c289979440babb853d29" style="width: 150px;"/>
 						<h1 class="mt-1 px-4 text-center" style="font-size: 25px;border-bottom: 1px solid #ccc;padding-bottom: .5em;margin-bottom: .5em;">Iago Lobato</h1>
 						<p class="fw-bold" style="font-size: 13px;">Estatísticas</p>
 						<div class="d-xl-flex align-items-xl-center justify-content-between d-inline-flex w-100 statusItem">
