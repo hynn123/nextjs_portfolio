@@ -27,15 +27,15 @@ export default function Home() {
 							<p class="mb-0 fw-bold">1</p>
 						</div>
 						<div class="d-xl-flex align-items-xl-center justify-content-between d-inline-flex w-100 statusItem">
-							<p class="mb-0 fw-bold" style="font-size: 13px;">Trabalhos concluídos</p>
+							<p class="mb-0 fw-bold title">Trabalhos concluídos</p>
 							<p class="mb-0 fw-bold">1</p>
 						</div>
 						<div class="d-xl-flex align-items-xl-center justify-content-between d-inline-flex w-100 statusItem">
-							<p class="mb-0 fw-bold" style="font-size: 13px;">Trabalhos concluídos</p>
+							<p class="mb-0 fw-bold title">Trabalhos concluídos</p>
 							<p class="mb-0 fw-bold">1</p>
 						</div>
 						<div class="d-xl-flex align-items-xl-center justify-content-between d-inline-flex w-100 statusItem">
-							<p class="mb-0 fw-bold" style="font-size: 13px;">Trabalhos concluídos</p>
+							<p class="mb-0 fw-bold title">Trabalhos concluídos</p>
 							<p class="mb-0 fw-bold">1</p>
 						</div>
 					</div>
