@@ -1,0 +1,97 @@
+.roundImage {
+  width: 35px;
+  height: 35px;
+  background-color: var(--fourthColor);
+  border-radius: 50%;
+}
+
+.listItem:nth-child(odd) {
+  background-color: #dfdfdf;
+}
+
+.listItem {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.listItem:last-of-type {
+  margin-bottom: 0;
+}
+
+.statusItem {
+  margin-bottom: .5em;
+}
+
+.statusItem p:nth-child(2) {
+  margin-bottom: .5em;
+}
+
+.statusItem p:nth-child(2) {
+  font-size: 10px;
+  color: var(--thirdColor);
+  background-color: var(--secondColor);
+  padding: 5px 10px 6px;
+  border-radius: 5px;
+}
+
+.statusItem:last-of-type {
+  margin-bottom: 0;
+}
+
+* {
+  font-family: 'Poppins' !important;
+}
+
+:root {
+  --firstColor: #2b2d42;
+  --secondColor: #8d99ae;
+  --thirdColor: #edf2f4;
+  --fourthColor: #ef233c;
+  --fiftyColor: #d90429;
+}
+
+.devTitle {
+  font-size: 25px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+.col__left .subTitle {
+  font-size: 13px;
+}
+
+.col__left .title {
+  font-size: 13px;
+}
+
+.boxTitle {
+  font-size: 16px;
+}
+
+.listItem .title {
+  font-size: 13px;
+}
+
+.listItem .subTitle {
+  font-size: 13px;
+}
+
+.col__right .box {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.05);
+}
+
+.bigTitle {
+  font-size: 37px;
+}
+
+.avatar {
+  width: 150px;
+}
+
+body {
+  background: var(--thirdColor);
+}
+
